@@ -31,7 +31,6 @@ text
     ├── tests/
     │   ├── Proachprogram.py      # Основной тест-кейс: проверка валидного состава
     │   ├── Proachprogram2.py     # Тест-кейс с расширенной проверкой DOM-структуры
-    │   └── test_lesson3_page.py  # Тест проверки редиректа (HTTP -> HTTPS)
     ├── README.md
     └── requirements.txt          # Зависимости проекта
 
