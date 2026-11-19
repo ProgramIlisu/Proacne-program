@@ -1,0 +1,24 @@
+# Создаём виртуальное окружение
+python -m venv venv
+
+# Активируем его
+.\venv\Scripts\Activate.ps1
+
+
+Ручная установка (по шагам)
+1. Скачай Chromium (обычный браузер)
+
+    Ссылка: https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-win64.zip
+    Создай папку chromium-1243 в C:\Users\DEN\AppData\Local\ms-playwright
+    Куда распаковать: C:\Users\DEN\AppData\Local\ms-playwright\chromium-1243\
+    Структура должна быть:
+    ...\chromium-1243\chrome-win64\chrome.exe
+    (Убедись, что нет лишней вложенной папки chrome-win64\chrome-win64\...)
+
+2. Скачай Chrome Headless Shell (нужен для тестов без окна)
+
+    Ссылка: https://cdn.playwright.dev/builds/cft/153.0.8010.12/win64/chrome-headless-shell-win64.zip
+    Создай папку chromium_headless_shell-124 в C:\Users\DEN\AppData\Local\ms-playwright
+    Куда распаковать: C:\Users\DEN\AppData\Local\ms-playwright\chromium_headless_shell-1243\
+    Структура должна быть:
+    ...\chromium_headless_shell-1243\chrome-headless-shell-win64\chrome-headless-shell.exe
